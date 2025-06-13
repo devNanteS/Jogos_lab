@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #f0f0f0, #dcdcdc );
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      padding: 50px;
+    }
+    .voltar {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: black;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .voltar:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: black;
+    }
+    
+    .imagem-jogo {
+      width: 250px;
+      max-width: 90%;
+      display: block;
+      margin: 80px auto 20px auto;
+    }
+    .container-jogo {
+  text-align: center;
+  margin-top: 100px;
+}
+.botao-jogar {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.botao-jogar:hover {
+  background-color: white ;
+  color: black;
+  transform: scale(1.05);
+}
+
+</style>
+</head>
+<body>
+ <div class="container-jogo">
+  <img src="img/quiz.png" alt="Quiz" class="imagem-jogo">
+  <h1>Quiz</h1>
+  
+  <a href="forca-jogo.html" class="botao-jogar">Jogar</a>
+  
+  <a href="carrosel.html" class="voltar">Voltar</a>
+</div>
+</html>

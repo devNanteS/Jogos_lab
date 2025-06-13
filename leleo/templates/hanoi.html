@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torre de Hanoi</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #1a1a40, #5a00b0);
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      padding: 50px;
+    }
+   .voltar {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+}
+
+  .voltar:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+ .imagem-jogo {
+    width: 1000px;
+    max-width: 50%;
+    display: block;
+    margin: 80px auto 50px auto;
+}
+.botao-jogar {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 10px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.botao-jogar:hover {
+  background-color: #8a2be2;
+  transform: scale(1.05);
+}
+
+  </style>
+</head>
+<body>
+   <div class="container-jogo">
+    <h1>Torre de Hanoi</h1>
+  <img src="img/torre.png" alt="Quiz" class="imagem-jogo">
+  <a href="" class="botao-jogar">Jogar</a>
+  <a href="carrosel.html" class="voltar">Voltar</a>
+</body>
+</html>
